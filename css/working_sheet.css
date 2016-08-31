@@ -235,6 +235,12 @@ body {
   z-index: 99;
 }
 
+code {
+  background: rgba(63,81,181,0.15);
+  padding: 0 5px;
+  border-radius: 2px;
+}
+
 ul {
   list-style-type: none;
 }
