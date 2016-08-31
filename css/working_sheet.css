@@ -271,26 +271,23 @@ table {
   font-size: 13px;
   background-color: #fff;
   margin: 15px 0;
+  width: 100%;
 }
 
 table thead {
   padding-bottom: 3px;
+  text-align: center;
+  background: rgba(63,81,181,0.15);
+  font-weight: 800;
+  color: rgba(0,0,0,.54);
+}
+
+table tfoot {
+  background: rgba(245, 245, 245, 0.5);
 }
 
 table th {
-  position: relative;
-  vertical-align: bottom;
-  text-overflow: ellipsis;
-  font-weight: 800;
-  line-height: 24px;
-  letter-spacing: 0;
-  height: 48px;
-  font-size: 12px;
-  color: rgba(0,0,0,.54);
-  padding-bottom: 8px;
-  box-sizing: border-box;
-  padding: 0 18px 12px 18px;
-  text-align: right;
+
 }
 
 tbody tr {
@@ -309,8 +306,7 @@ td {
   vertical-align: middle;
   position: relative;
   height: 48px;
-  border-top: 1px solid rgba(0,0,0,.12);
-  border-bottom: 1px solid rgba(0,0,0,.12);
+  border: 1px solid rgba(0,0,0,.12);
   padding: 12px 18px;
   box-sizing: border-box;
 }
